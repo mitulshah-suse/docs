@@ -5,7 +5,7 @@ aliases:
   - /rancher/v2.6/en/security/hardening-guides/1.6-benchmark-2.6/
 ---
 
-### RKE CIS v1.6 Kubernetes Benchmark - Rancher v2.6 with Kubernetes v1.18 to v1.23
+### RKE CIS v1.6 Kubernetes Benchmark - Rancher v2.6 with Kubernetes v1.16 to v1.18
 
 [Click here to download a PDF version of this document](https://releases.rancher.com/documents/security/2.6/Rancher_v2-6_CIS_v1-6_Benchmark_Assessment.pdf).
 
@@ -17,7 +17,7 @@ This guide corresponds to specific versions of the hardening guide, Rancher, CIS
 
 | Hardening Guide Version | Rancher Version | CIS Benchmark Version |  Kubernetes Version |
 | ----------------------- | --------------- | --------------------- | ------------------- |
-| Hardening Guide CIS v1.6 Benchmark | Rancher v2.6 | CIS v1.6 | Kubernetes v1.18 up to v1.23 |
+| Hardening Guide CIS v1.6 Benchmark | Rancher v2.6 | CIS v1.6 | Kubernetes v1.16 up to v1.18 |
 
 Because Rancher and RKE install Kubernetes services as Docker containers, many of the control verification checks in the CIS Kubernetes Benchmark do not apply and will have a result of `Not Applicable`. This guide will walk through the various controls and provide updated example commands to audit compliance in Rancher created clusters.
 
